@@ -30,6 +30,7 @@ def main():
     def confirm_to_quit():
         if tkinter.messagebox.askokcancel('温馨提示', '确定要退出吗?'):
             win.quit()
+
     def run_start():
         def get_success(*info):
             tkinter.messagebox.showinfo("获取成功", "获取成功！\n" + str(info))
