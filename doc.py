@@ -30,12 +30,6 @@ def main():
     def confirm_to_quit():
         if tkinter.messagebox.askokcancel('温馨提示', '确定要退出吗?'):
             win.quit()
-    # 选择保存路径
-
-    def select_dir():
-        save_path = askdirectory()
-        b_addr.set(save_path)  # 获取输入框内容
-
     def run_start():
         def get_success(*info):
             tkinter.messagebox.showinfo("获取成功", "获取成功！\n" + str(info))
