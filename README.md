@@ -1,7 +1,10 @@
 # Python_demo
-简单的表情包爬虫（gui.py）
-和百度文库爬虫（d.py）
 
+### 简单的表情包爬虫（emoji.py）
+
+### 百度文库爬虫（doc.py）
+
+    一般doc文档使用txt类型都能获取，部分可能抽风
 
 ```
 import urllib
